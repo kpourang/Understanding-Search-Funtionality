@@ -26,6 +26,7 @@
     <li>search_autocomplete: This is logged when a user clicks on a search option from autocomplete</li>
     <li>search_run: This is logged when a user runs a search and sees the search results page.</li>
     <li>search_click_X: This is logged when a user clicks on a search result. X, which ranges from 1 to 10, describes which search result was clicked.</li>
+</ul>
 
 <p>The tables names and column definitions are listed below—click a table name to view information about that table.</p>
 
@@ -44,6 +45,7 @@ This table includes one row per user, with descriptive information about that us
     <li>Are users' search experiences generally good or bad?</li>
     <li>Is search worth working on at all?</li>
     <li>If search is worth working on, what, specifically, should be improved?</li>
+</ul>
 
 <p>Come up with a brief presentation describing the state of search at Yammer. Display your findings graphically. You should be prepared to recommend what, if anything, should be done to improve search. If you determine that you do not have sufficient information to test anything you deem relevant, discuss the caveats.</p>
 
@@ -61,6 +63,7 @@ This table includes one row per user, with descriptive information about that us
     <li>Repeated terms: A better way to understand the above would be to actually compare similarity of search terms. That's much slower and more difficult to actually do than counting the number of searches a user performs in a short timeframe, so best to ignore this option.</li>
     <li>Clickthroughs: If a user clicks many links in the search results, it's likely that she isn't having a great experience. However, the inverse is not necessarily true—clicking only one result does not imply a success. If the user clicks through one result, then refines her search, that's certainly not a great experience, so search frequency is probably a better way to understand that piece of the puzzle. Clickthroughs are, however, very useful in determining whether search rankings are good. If users frequently click low results or scroll to additional pages, then the ranking algorithm should probably be adjusted.</li>
     <li>Autocomplete Clickthroughs: The autocomplete feature is certainly part of the equation, though its success should be measured separately to understand its role.</li>
+</ul>
 
 <h1>The state of search</h1>
 
